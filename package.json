@@ -1,0 +1,25 @@
+{
+  "name": "employee-tracker-sql",
+  "version": "1.0.0",
+  "description": "Employee Management Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node db/seed.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vershard/Employee-Tracker-SQL.git"
+  },
+  "author": "Vershard Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vershard/Employee-Tracker-SQL/issues"
+  },
+  "homepage": "https://github.com/Vershard/Employee-Tracker-SQL#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.2",
+    "mysql2": "^2.3.0"
+  }
+}
